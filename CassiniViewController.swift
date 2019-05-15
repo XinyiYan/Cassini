@@ -11,9 +11,9 @@ import UIKit
 class CassiniViewController: UIViewController {
     
     var urls: Dictionary<String, URL> = {
-        let strings = ["a": "https://yys.res.netease.com/pc/zt/20170731172708/data/picture/20180928/6/2208x1242.jpg",
-                       "b": "https://yys.res.netease.com/pc/zt/20170731172708/data/picture/20180918/19/2208x1242.jpg",
-                       "c": "https://yys.res.netease.com/pc/zt/20170731172708/data/picture/20181120/1/2208x1242.jpg"]
+        let strings = ["a": "https://www.nasa.gov/sites/default/files/thumbnails/image/pia12567-1600.jpg",
+                       "b": "https://www.nasa.gov/sites/default/files/thumbnails/image/pia21923-nasa.jpg",
+                       "c": "https://www.nasa.gov/sites/default/files/thumbnails/image/pia17144-1041.jpg"]
         var urls = Dictionary<String, URL>()
         for (key, value) in strings {
             urls[key] = URL(string: value)
